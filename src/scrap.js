@@ -1,3 +1,3 @@
-import {scrap} from "./scrapers/clashOfClansLayouts.js";
+import {scrap} from "./libs/scrapers/clashOfClansLayouts.js";
 
 scrap();

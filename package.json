@@ -4,9 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/match.js",
+    "index": "node src/index.js",
     "scrap": "node src/scrap.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "node src/cleanup.js",
+    "search": "node src/search.js"
   },
   "keywords": [],
   "author": "",

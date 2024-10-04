@@ -31,6 +31,7 @@ const fetchPage = async (pageUrl) => {
         throw new Error("Missing pageUrl");
     }
 
+    console.info(`Fetching page: ${pageUrl}`);
     const response = await fetch(pageUrl);
 
     if (!response.ok) {
@@ -57,6 +58,7 @@ const fetchPages = async (pageBaseUrl) => {
         throw new Error("Missing pageBaseUrl");
     }
 
+    console.info(`Fetching homepage: ${pageBaseUrl}`);
     const response = await fetch(pageBaseUrl);
 
     if (!response.ok) {
