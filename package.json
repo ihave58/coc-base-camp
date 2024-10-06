@@ -16,7 +16,8 @@
   "dependencies": {
     "@u4/opencv4nodejs": "^7.1.2",
     "node-fetch": "^3.3.2",
-    "node-html-parser": "^6.1.13"
+    "node-html-parser": "^6.1.13",
+    "lodash": "^4.17.21"
   },
   "opencv4nodejs": {
     "disableAutoBuild": "1",

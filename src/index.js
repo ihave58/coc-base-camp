@@ -1,3 +1,3 @@
-import {buildMapIndexes} from "./libs/mapHelper.js";
+import {buildMapMatches} from "./libs/mapHelper.js";
 
-buildMapIndexes();
+buildMapMatches();
