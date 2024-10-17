@@ -1,28 +1,34 @@
 {
-  "name": "coc-base-camp-service",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "index": "node src/index.js",
-    "scrap": "node src/scrap.js",
-    "clean": "node src/cleanup.js",
-    "search": "node src/search.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@u4/opencv4nodejs": "^7.1.2",
-    "node-fetch": "^3.3.2",
-    "node-html-parser": "^6.1.13",
-    "lodash": "^4.17.21"
-  },
-  "opencv4nodejs": {
-    "disableAutoBuild": "1",
-    "opencvIncludeDir": "/opt/homebrew/Cellar/opencv/4.10.0_9/include",
-    "opencvLibDir": "/opt/homebrew/Cellar/opencv/4.10.0_9/lib",
-    "opencvBinDir": "/opt/homebrew/Cellar/opencv/4.10.0_9/bin"
-  }
+    "name": "coc-base-camp-service",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "index": "node src/index.js",
+        "scrap": "node src/scrap.js",
+        "clean": "node src/cleanup.js",
+        "search": "node src/search.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@u4/opencv4nodejs": "^7.1.2",
+        "appium": "2.4.1",
+        "lodash": "^4.17.21",
+        "node-fetch": "^3.3.2",
+        "node-html-parser": "^6.1.13",
+        "webdriverio": "^9.1.2"
+    },
+    "opencv4nodejs": {
+        "disableAutoBuild": "1",
+        "opencvIncludeDir": "/opt/homebrew/Cellar/opencv/4.10.0_9/include",
+        "opencvLibDir": "/opt/homebrew/Cellar/opencv/4.10.0_9/lib",
+        "opencvBinDir": "/opt/homebrew/Cellar/opencv/4.10.0_9/bin"
+    },
+    "devDependencies": {
+        "@appium/images-plugin": "^3.0.20",
+        "appium-uiautomator2-driver": "2.45.1"
+    }
 }
